@@ -8,6 +8,7 @@
 scoreboard objectives add mmh.int dummy
 scoreboard objectives add mmh.achievements
 scoreboard objectives add mmh.time_alive dummy
+scoreboard objectives add mmh.compass_slot
 scoreboard objectives add top trigger
 
 team add mmh.hunters
