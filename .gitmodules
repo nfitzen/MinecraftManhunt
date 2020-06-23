@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[submodule "AESTD"]
+	path = AESTD
+	url = https://github.com/Aeldrion/AESTD.git

@@ -1,0 +1,39 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Minecraft Manhunt
+Upstream-Contact: Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+Source: https://github.com/nfitzen/MinecraftManhunt
+License: MIT
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
+
+Files: data/minecraft/tags/*.json
+Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+License: CC0-1.0
+
+Files: data/manhunt/*
+Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+License: MIT
+
+Files: pack.mcmeta
+Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+License: MIT
+
+Files: AESTD/*
+Copyright: 2019 Aeldrion
+License: MIT
+
+Files: data/aestd*
+Copyright: 2019 Aeldrion
+License: MIT
+
+Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+Copyright: 2019 Aeldrion
+License: MIT
+
+Files: data/load/*
+Copyright: 2019 LanternMC
+License: CC0-1.0
