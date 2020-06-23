@@ -1,5 +1,6 @@
 {
     "values": [
-        "#aestd.core:tick"
+        "#aestd.core:tick",
+        "#manhunt:core/tick"
     ]
 }

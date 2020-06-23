@@ -1,0 +1,6 @@
+{
+    "values": [
+        "manhunt:core/init",
+        "manhunt:core/string"
+    ]
+}
