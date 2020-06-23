@@ -3,6 +3,7 @@
 #
 # SPDX-License-Identifier: MIT
 
+rm -r .build/
 mkdir .build releases
 
 cp -r data/ ./pack.mcmeta .build/
@@ -23,5 +24,3 @@ zip -r MinecraftManhunt.zip data/ pack.mcmeta .reuse/ LICENSE LICENSES/ README.m
 cd ..
 
 cp .build/MinecraftManhunt.zip releases/
-
-rm -r .build/
