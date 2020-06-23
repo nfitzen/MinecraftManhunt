@@ -8,11 +8,19 @@
 
 # AESTD ignore
 
-/data/aestd.*/
-/data/aestd1/
-!/data/aestd1/tags/functions
-/data/load/
-/data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+data/aestd.*/
+
+data/aestd1/*
+!data/aestd1/tags/
+data/aestd1/tags/*
+!data/aestd1/tags/functions/
+
+data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+
+# Build-related stuff
+
+/.build/
+/releases/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python
