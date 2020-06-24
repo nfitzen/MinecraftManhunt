@@ -10,10 +10,12 @@ year = 2020
 copyrightHolder = "Nathaniel Fitzenrider"
 license = "MIT"
 
+spdx = 'SPDX-' # ensures automatic SPDX tools don't get it mixed up
+
 with open('get_compass_slot.mcfunction', 'w') as f:
-    start = f"""# SPDX-FileCopyrightText: {year} {copyrightHolder}
+    start = f"""# {spdx}FileCopyrightText: {year} {copyrightHolder}
 #
-# SPDX-License-Identifier: {license}
+# {spdx}License-Identifier: {license}
 
 """
     lines = ('execute if data entity @s Inventory[{"Slot":%db,"id":"minecraft:compass","tag":{"mmh":{"mechanics":{"tracker":true}}}}] run scoreboard players set @s mmh.compass_slot %d' % (i,i) for i in slotRange)
