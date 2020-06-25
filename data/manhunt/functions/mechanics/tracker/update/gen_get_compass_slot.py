@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
 #
 # SPDX-License-Identifier: MIT
