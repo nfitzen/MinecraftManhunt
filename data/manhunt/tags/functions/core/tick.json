@@ -1,5 +1,6 @@
 {
     "values": [
-        "manhunt:core/tick"
+        "manhunt:core/tick",
+        "manhunt:mechanics/tracker/compass_check/item"
     ]
 }

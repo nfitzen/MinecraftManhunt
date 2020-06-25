@@ -1,3 +1,5 @@
 {
-    "values": []
+    "values": [
+        "manhunt:mechanics/tracker/compass_check/as_player"
+    ]
 }
