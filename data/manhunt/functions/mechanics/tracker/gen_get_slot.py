@@ -13,7 +13,7 @@ license = "MIT"
 
 spdx = 'SPDX-' # ensures automatic SPDX tools don't get it mixed up
 
-with open('get_compass_slot.mcfunction', 'w') as f:
+with open('get_slot.mcfunction', 'w') as f:
     start = f"""# {spdx}FileCopyrightText: {year} {copyrightHolder}
 #
 # {spdx}License-Identifier: {license}

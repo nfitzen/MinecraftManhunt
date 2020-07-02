@@ -13,4 +13,4 @@ data modify storage manhunt:string mmh.mechanics.win.hunters.subtitle set value 
 data modify storage manhunt:string mmh.mechanics.win.hunted.title set value '["The ",{"text":"Hunted","color":"blue"}]'
 data modify storage manhunt:string mmh.mechanics.win.hunted.subtitle set value '{"text":"has won the manhunt!","color":"gold"}'
 
-data modify storage manhunt:string mmh.mechanics.tracker.Name set value '{"text":"Tracking Compass","color":"gold"}'
+data modify storage manhunt:string mmh.mechanics.tracker.display.Name set value '{"text":"Tracking Compass","color":"gold","italic":false}'
