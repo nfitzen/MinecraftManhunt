@@ -36,12 +36,12 @@ Copyright and Related Rights in the Work and the meaning and intended legal
 effect of CC0 on those rights.
 
 1. Copyright and Related Rights. A Work made available under CC0 may be
-protected by copyright and related or neighboring rights ("Copyright and
-Related Rights"). Copyright and Related Rights include, but are not limited to,
-the following:
+protected by copyright and related or neighboring rights ("Copyright and Related
+Rights"). Copyright and Related Rights include, but are not limited to, the
+following:
 
-    i. the right to reproduce, adapt, distribute, perform, display,
-    communicate, and translate a Work;
+    i. the right to reproduce, adapt, distribute, perform, display, communicate,
+    and translate a Work;
 
     ii. moral rights retained by the original author(s) and/or performer(s);
 
