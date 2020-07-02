@@ -29,5 +29,5 @@ See the [dep5 file](.reuse/dep5) for more information on copyright and licensing
 
 [Aeldrion]: //github.com/Aeldrion
 [Lantern]: //github.com/LanternMC
-[AESTD]: //github.com/AESTD
+[AESTD]: //github.com/Aeldrion/AESTD
 [Lantern Load]: //github.com/LanternMC/Load
