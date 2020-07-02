@@ -4,23 +4,25 @@
 # SPDX-License-Identifier: MIT
 
 rm -r .build/
-mkdir .build releases
+mkdir .build releases .build/files
 
-cp -r data/ ./pack.mcmeta .build/
+cp -r data/ ./pack.mcmeta .build/files/
 
 cp -r AESTD/ .build/
 
-cp -r .reuse/ LICENSE LICENSES/ README.md .build/
+cp -r .reuse/ LICENSE LICENSES/ README.md .build/files
 
 cd .build
 
-cp -rn AESTD/data/aestd* data/
-rm -rf data/aestd.tools/ # kinda inefficient but whatever
-cp -rn AESTD/data/load/ data/
-cp -r AESTD/data/minecraft/loot_tables/ data/minecraft/
+cp -rn AESTD/data/aestd*/ files/data
+rm -rf files/data/aestd.tools/ # kinda inefficient but whatever
+cp -rn AESTD/data/load/ files/data/
+cp -r AESTD/data/minecraft/loot_tables/ files/data/minecraft/
 
-zip -r MinecraftManhunt.zip data/ pack.mcmeta .reuse/ LICENSE LICENSES/ README.md
+cd files
 
-cd ..
+zip -r ../../releases/MinecraftManhunt.zip *
 
-cp .build/MinecraftManhunt.zip releases/
+# cd ../..
+
+# cp .build/MinecraftManhunt.zip releases/
