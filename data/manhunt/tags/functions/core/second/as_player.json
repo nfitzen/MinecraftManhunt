@@ -1,5 +1,6 @@
 {
     "values": [
-        "manhunt:mechanics/tracker/compass_check/as_player"
+        "manhunt:mechanics/tracker/compass_check/as_player",
+        "manhunt:mechanics/death/respawn/check"
     ]
 }

@@ -1,0 +1,33 @@
+SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+
+SPDX-License-Identifier: MIT
+
+# Reserve UUIDs for ease of use
+
+"f9bbe098-9e56-41d5-a0ec-782fd352c517"
+UUID: [I;-105127784,1638514219,-1595115473,-749550313]
+Selector: @e[tag=mmh.autosetup]
+Comment: Autosetup entity
+
+"150dfa29-7270-4a29-ab0e-9d0ec42087c2"
+UUID: [I;353237545,1919961641,-1425105650,-1004501054]
+Selector: @e[tag=mmh.center]
+Comment: Center entity
+
+"ad7a10d4-7d3c-4f43-86bb-da872d12bb79"
+UUID: [I;-1384509228,2101104451,-2034509177,756202361]
+Selector: @e[tag=mmh.worldborder]
+Comment: Worldborder entity used in
+    function manhunt:mechanics/worldborder/set_from_input
+
+"4065effc-632b-4a1c-9948-78ae5f431003"
+UUID: [I;1080422396,1663781404,-1723303762,1598230531]
+
+"83e7e786-9b4e-412b-ac16-27048d126b0b"
+UUID: [I;-2081953914,-1689370325,-1407834364,-1928172789]
+
+"2510c5e0-83de-4983-b258-8c6b54172a1a"
+UUID: [I;621856224,-2082584189,-1302819733,1410804250]
+
+"704ea23a-7bc6-41e9-b961-8ef07fa543eb"
+UUID: [I;1884201530,2076590569,-1184788752,2141537259]
