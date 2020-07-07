@@ -4,7 +4,7 @@
 
 # function manhunt:mechanics/tracker/update/main
 
-data modify storage aestd:input nbt set value {}
+data modify storage aestd:input nbt set value {"LodestoneTracked":false}
 data modify storage aestd:input nbt.display set from storage manhunt:string mmh.mechanics.tracker.display
 
 execute as @p[team=mmh.hunted] run function manhunt:mechanics/tracker/update/store_to_nbt
