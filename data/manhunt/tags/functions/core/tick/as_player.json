@@ -1,5 +1,6 @@
 {
     "values": [
+        "manhunt:mechanics/death/respawn/check",
         "manhunt:mechanics/tracker/update/main"
     ]
 }

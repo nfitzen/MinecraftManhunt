@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "go_through_portal": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:the_end",
+                "to": "minecraft:overworld"
+            }
+        }
+    },
+    "rewards": {
+        "function": "manhunt:mechanics/win/hunted_check"
+    }
+}
