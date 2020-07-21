@@ -10,9 +10,9 @@ License: MIT
 # Copyright: $YEAR $NAME <$CONTACT>
 # License: ...
 
-Files: data/minecraft/tags/*.json
+Files: *.json
 Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
-License: CC0-1.0
+License: MIT
 
 Files: data/manhunt/*
 Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
