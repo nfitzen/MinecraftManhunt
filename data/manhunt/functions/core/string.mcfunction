@@ -17,12 +17,14 @@ data modify storage manhunt:string mmh.mechanics.win.hunted.subtitle set value '
 
 data modify storage manhunt:string mmh.mechanics.tracker.display.Name set value '{"text":"Tracking Compass","color":"gold","italic":false}'
 
-data modify storage manhunt:string mmh.mechanics.win.stats.message[0] set value '{"text":"--------------------","color":"green"}'
-data modify storage manhunt:string mmh.mechanics.win.stats.message[1] set value '[{"text":"","color":"grey"},{"selector":"@s"},"'s stats:'"]'
-data modify storage manhunt:string mmh.mechanics.win.stats.message[2] set value '{"nbt":"mmh.mechanics.win.stats.finished","storage":"manhunt:input"}'
-data modify storage manhunt:string mmh.mechanics.win.stats.message[3] set value '["",{"text":"Advancements -- ","color":"gold"},{"color":"green","score":{"name":"@s","objective":"mmh.achievements"}}]'
-data modify storage manhunt:string mmh.mechanics.win.stats.message[4] set value '["",{"text":"Time alive -- ","color":"gold"},{"color":"green","score":{"name":"@s","objective":"mmh.time_alive"}}]'
-data modify storage manhunt:string mmh.mechanics.win.stats.message[5] set value '{"text":"--------------------","color":"green"}'
 
-data modify storage manhunt:string mmh.mechanics.win.stats.finished.false set value '{"text":"Finished the game!","color":"green","bold":true}'
-data modify storage manhunt:string mmh.mechanics.win.stats.finished.true set value '{"text":"Didn't finish the game.","color":"red","bold":true}'
+data modify storage manhunt:string mmh.mechanics.win.stats.message set value []
+data modify storage manhunt:string mmh.mechanics.win.stats.message append value '{"text":"--------------------","color":"green"}'
+data modify storage manhunt:string mmh.mechanics.win.stats.message append value "[{\"text\":\"\",\"color\":\"grey\"},{\"selector\":\"@s\"},\"'s stats:\"]"
+data modify storage manhunt:string mmh.mechanics.win.stats.message append value '{"nbt":"mmh.mechanics.win.stats.finished","storage":"manhunt:input","interpret":true}'
+data modify storage manhunt:string mmh.mechanics.win.stats.message append value '["",{"text":"Advancements -- ","color":"gold"},{"color":"green","score":{"name":"@s","objective":"mmh.advancements"}}]'
+data modify storage manhunt:string mmh.mechanics.win.stats.message append value '["",{"text":"Time alive -- ","color":"gold"},{"color":"green","score":{"name":"@s","objective":"mmh.time_alive"}}]'
+data modify storage manhunt:string mmh.mechanics.win.stats.message append value '{"text":"--------------------","color":"green"}'
+
+data modify storage manhunt:string mmh.mechanics.win.stats.finished.true set value '{"text":"Finished the game!","color":"green","bold":true}'
+data modify storage manhunt:string mmh.mechanics.win.stats.finished.false set value '{"text":"Didn\'t finish the game.","color":"red","bold":true}'

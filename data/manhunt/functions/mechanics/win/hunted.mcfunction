@@ -2,7 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-execute if entity @s[advancements={manhunt:finish=true}] run data modify storage manhunt:input mmh.mechanics.win.stats.finished set from storage manhunt:string mmh.mechanics.win.stats.finished.true
+title @a subtitle {"nbt":"mmh.mechanics.win.hunted.subtitle","storage":"manhunt:string","interpret":true}
+title @a title {"nbt":"mmh.mechanics.win.hunted.title","storage":"manhunt:string","interpret":true}
 
 function #manhunt:mechanics/win/stats
 

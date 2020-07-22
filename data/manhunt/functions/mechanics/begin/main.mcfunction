@@ -7,3 +7,5 @@
 function #manhunt:mechanics/begin/team_assignment
 
 execute as @a run function manhunt:mechanics/begin/as_player
+
+function manhunt:mechanics/begin/countdown/main

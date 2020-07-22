@@ -5,6 +5,7 @@
 clear @s
 advancement revoke @s everything
 recipe take @s *
+effect clear @s
 
 xp set @s 0 points
 xp set @s 0 levels

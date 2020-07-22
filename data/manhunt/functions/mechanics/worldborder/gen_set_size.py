@@ -6,7 +6,7 @@
 # 60,000,000 == 0b00000011100100111000011100000000
 # 26 bits
 
-bits = range(26)
+bits = range(25,-1,-1)
 
 tests = (2**x for x in bits)
 
@@ -23,8 +23,13 @@ with open(filename, 'w') as f:
 #
 # {spdx}License-Identifier: {license}
 
-worldborder set 0
+worldborder set 1
 
 """
-    lines = ('execute if score $worldborder.size mmh.input matches %d.. run worldborder add %d' % (i,i) for i in tests)
-    f.write(start+'\n'.join(lines))
+    end = """
+worldborder add -1
+"""
+    repeat = """execute if score $worldborder.size mmh.tmp matches %d.. run worldborder add %d
+execute if score $worldborder.size mmh.tmp matches %d.. run scoreboard players remove $worldborder.size mmh.tmp %d"""
+    lines = (repeat % (i,i,i,i) for i in tests)
+    f.write(start+'\n'.join(lines)+end)

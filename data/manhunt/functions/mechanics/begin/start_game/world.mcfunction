@@ -2,4 +2,6 @@
 #
 # SPDX-License-Identifier: MIT
 
-function manhunt:mechanics/tracker/give
+gamerule doDaylightCycle true
+weather rain 1
+gamerule doMobSpawning true
