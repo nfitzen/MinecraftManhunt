@@ -15,3 +15,5 @@ title @a title {"nbt":"mmh.mechanics.begin.start.title","storage":"manhunt:strin
 kill 150dfa29-7270-4a29-ab0e-9d0ec42087c2
 
 scoreboard players set $game_started mmh.int 1
+
+function #manhunt:overrides/mechanics/begin/start_game/main

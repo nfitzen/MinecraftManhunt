@@ -14,3 +14,6 @@ effect give @s minecraft:saturation 1 20
 effect give @s minecraft:instant_health 1 28
 
 tag @s add mmh.alive
+scoreboard players set @s mmh.time 0
+
+function #manhunt:overrides/mechanics/begin/as_player

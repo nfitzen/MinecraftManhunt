@@ -16,3 +16,5 @@ scoreboard players add @s[advancements={minecraft:end/kill_dragon=true}] mmh.adv
 
 scoreboard players remove @s[advancements={minecraft:nether/root=true}] mmh.advancements 1
 scoreboard players remove @s[advancements={minecraft:story/form_obsidian=true}] mmh.advancements 1
+
+function #manhunt:overrides/mechanics/count_advancements/count

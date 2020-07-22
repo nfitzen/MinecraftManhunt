@@ -15,15 +15,13 @@ scoreboard objectives add mmh.tmp dummy
 scoreboard objectives add mmh.advancements dummy
 scoreboard objectives add mmh.time_alive dummy
 
+scoreboard objectives add mmh.time minecraft.custom:minecraft.play_one_minute
 scoreboard objectives add mmh.time_spawned minecraft.custom:minecraft.time_since_death
-scoreboard objectives add mmh.kill_player playerKillCount
 
-scoreboard objectives add top trigger
-
-team add mmh.hunters
+team add mmh.hunters "Hunters"
 team modify mmh.hunters color red
 
-team add mmh.hunted
+team add mmh.hunted "Hunted"
 team modify mmh.hunted color blue
 
 scoreboard players add $game_started mmh.int 0

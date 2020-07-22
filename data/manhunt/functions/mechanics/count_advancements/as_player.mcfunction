@@ -4,4 +4,4 @@
 
 # function manhunt:mechanics/count_advancements/as_player
 
-execute if entity @s[team=mmh.hunted] run function #manhunt:mechanics/count_advancements/count
+execute if entity @s[team=mmh.hunted] run function manhunt:mechanics/count_advancements/count

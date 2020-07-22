@@ -11,3 +11,5 @@ execute if score $countdown mmh.int matches 1.. run title @a title {"nbt":"mmh.m
 execute if score $countdown mmh.int matches 1.. run schedule function manhunt:mechanics/begin/countdown/countdown 1s replace
 
 scoreboard players remove $countdown mmh.int 1
+
+function #manhunt:overrides/mechanics/begin/countdown/countdown

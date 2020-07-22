@@ -13,3 +13,5 @@ scoreboard players operation $hunted_diff mmh.tmp = $hunted_size mmh.int
 scoreboard players operation $hunted_diff mmh.tmp -= $current_hunted mmh.tmp
 
 execute as @a[sort=random,team=] run function manhunt:mechanics/begin/team_assignment/as_player
+
+function #manhunt:overrides/mechanics/begin/team_assignment/main

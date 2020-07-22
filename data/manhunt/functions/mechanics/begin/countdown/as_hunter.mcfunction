@@ -5,3 +5,5 @@
 effect give @s minecraft:resistance 32767 127 true
 effect give @s minecraft:slowness 32767 127 true
 effect give @s minecraft:jump_boost 32767 128 true
+
+function #manhunt:overrides/mechanics/begin/countdown/as_hunter
