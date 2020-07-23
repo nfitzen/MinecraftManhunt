@@ -1,6 +1,5 @@
 {
     "values": [
-        "manhunt:mechanics/count_time",
         "manhunt:mechanics/death/respawn/check",
         "manhunt:mechanics/tracker/update/main"
     ]
