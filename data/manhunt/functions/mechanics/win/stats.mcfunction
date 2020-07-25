@@ -9,4 +9,4 @@ data modify storage nlib:input StringList set from storage manhunt:string mmh.me
 function #manhunt:overrides/mechanics/win/stats
 
 tag @a add nlib.tellraw_from_list
-execute as @a[team=mmh.hunted] run function manhunt:mechanics/win/stats_as_hunted
+execute as @a[team=mmh.hunted] run function #manhunt:mechanics/win/stats_as_hunted

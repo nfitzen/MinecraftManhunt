@@ -2,8 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-title @a subtitle {"nbt":"mmh.mechanics.win.hunted.subtitle","storage":"manhunt:string","interpret":true}
-title @a title {"nbt":"mmh.mechanics.win.hunted.title","storage":"manhunt:string","interpret":true}
+execute as @a run function manhunt:mechanics/win/title
 
 function #manhunt:mechanics/win/stats
 

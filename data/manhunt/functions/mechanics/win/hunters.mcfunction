@@ -2,8 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-title @a subtitle {"nbt":"mmh.mechanics.win.hunters.subtitle","storage":"manhunt:string","interpret":true}
-title @a title {"nbt":"mmh.mechanics.win.hunters.title","storage":"manhunt:string","interpret":true}
+execute as @a run function manhunt:mechanics/win/title
 
 data modify storage manhunt:input mmh.mechanics.win.stats.finished set from storage manhunt:string mmh.mechanics.win.stats.finished.false
 

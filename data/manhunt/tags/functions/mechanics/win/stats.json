@@ -1,6 +1,5 @@
 {
     "values": [
-        "manhunt:mechanics/count_advancements/as_player",
         "manhunt:mechanics/win/stats"
     ]
 }

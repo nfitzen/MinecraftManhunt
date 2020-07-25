@@ -2,8 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-effect give @s minecraft:resistance 32767 127 true
-effect give @s minecraft:slowness 32767 127 true
-effect give @s minecraft:jump_boost 32767 128 true
+tag @s add mmh.frozen
+
+execute at @s summon minecraft:area_effect_cloud ~ ~ ~ {"Radius":0.0,"Duration":2147483647,"Tags":["mmh.stickytp"]}
 
 function #manhunt:overrides/mechanics/begin/countdown/as_hunter

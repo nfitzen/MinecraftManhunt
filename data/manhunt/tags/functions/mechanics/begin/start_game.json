@@ -1,5 +1,6 @@
 {
     "values": [
-        "manhunt:mechanics/begin/start_game/main"
+        "manhunt:mechanics/begin/start_game/main",
+        "manhunt:mechanics/begin/start_game/residual/main"
     ]
 }
