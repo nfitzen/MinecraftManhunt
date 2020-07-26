@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-execute as @a run function manhunt:mechanics/win/title
+execute as @a run function manhunt:mechanics/win/hunted_title
 
 function #manhunt:mechanics/win/stats
 
