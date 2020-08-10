@@ -21,6 +21,8 @@ cp -r AESTD/data/minecraft/loot_tables/ files/data/minecraft/
 
 cd files
 
+rm ../../releases/MinecraftManhunt.zip
+
 zip -r ../../releases/MinecraftManhunt.zip data/ LICENSE LICENSES/ pack.mcmeta README.md
 
 # cd ../..
