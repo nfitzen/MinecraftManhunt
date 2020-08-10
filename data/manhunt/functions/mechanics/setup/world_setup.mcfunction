@@ -7,5 +7,4 @@ time set 0
 weather rain 1
 
 gamerule doMobSpawning false
-
-kill @e[type=#aestd1:hostile]
+execute as @e[type=#aestd1:mobs,tag=!mmh.NoAI] run function manhunt:mechanics/setup/noai
