@@ -1,8 +1,8 @@
 <!--
-SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
-
-SPDX-License-Identifier: FSFAP
--->
+ ~ SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
+ ~
+ ~ SPDX-License-Identifier: MIT
+ -->
 
 # Minecraft Manhunt
 Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]

@@ -23,15 +23,15 @@ Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
 License: MIT
 
 Files: AESTD/*
-Copyright: 2019 Aeldrion
+Copyright: 2020 Aeldrion
 License: MIT
 
 Files: data/aestd*
-Copyright: 2019 Aeldrion
+Copyright: 2020 Aeldrion
 License: MIT
 
 Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
-Copyright: 2019 Aeldrion
+Copyright: 2020 Aeldrion
 License: MIT
 
 Files: data/load/*
