@@ -4,4 +4,4 @@
 
 # function manhunt:mechanics/tracker/update/main
 
-execute if entity @s[team=mmh.hunters,nbt={"SelectedItem":{"tag":{"mmh":{"mechanics":{"tracker":true}}}}}] run function manhunt:mechanics/tracker/update/as_hunter
+execute if entity @s[team=mmh.hunters] if data entity @s {"SelectedItem":{"tag":{"mmh":{"mechanics":{"tracker":true}}}}} run function manhunt:mechanics/tracker/update/as_hunter

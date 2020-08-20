@@ -5,9 +5,10 @@
 # function manhunt:mechanics/tracker/update/main
 
 data modify storage aestd:input nbt set value {"LodestoneTracked":false}
+
+# Probably unnecessary. Should comment out if you want to minimize data operations.
 data modify storage aestd:input nbt.display set from storage manhunt:string mmh.mechanics.tracker.display
 
-execute store result score $comp mmh.tmp run data get entity @s Dimension
 data modify storage manhunt:input Dimension set from entity @s Dimension
 execute as @p[team=mmh.hunted,tag=mmh.alive] run function manhunt:mechanics/tracker/update/store_to_nbt
 

@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-# function manhunt:mechanics/tracker/update/if_dimdiff
+# function manhunt:mechanics/tracker/update/if_nether
 # called from: ./store_to_nbt
 
 data modify storage aestd:input nbt.LodestonePos.X set from entity @s enteredNetherPosition.x

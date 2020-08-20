@@ -1,7 +1,7 @@
 <!--
 SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider
 
-SPDX-License-Identifier: MIT
+SPDX-License-Identifier: FSFAP
 -->
 
 # Minecraft Manhunt
