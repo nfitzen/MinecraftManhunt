@@ -1,5 +1,6 @@
 {
     "values": [
-    	"aestd.core:load"
+    	"aestd.core:load",
+        "nlib:init"
     ]
 }
