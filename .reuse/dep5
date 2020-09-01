@@ -4,23 +4,11 @@ Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
 Source: https://github.com/nfitzen/MinecraftManhunt
 License: MIT
 
-# Sample paragraph, commented out:
-#
-# Files: data/*
-# Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-# License: MIT
-
-# Blanket copyright just in case JSON files exist.
+# Base datapack files
 # Scroll past the libraries section to apply exceptions to them.
-Files: data/*
-Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+Files: data/* pack.mcmeta
+Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
 License: MIT
-
-# Add items to `Copyright` depending on your reused code/libs
-Files: data/minecraft/tags/functions/*
-Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-License: MIT
-Comment: shared files between datapacks
 
 # Libraries, bundled and unbundled
 # Add your own copyright if using function tags from any of these.
@@ -28,6 +16,7 @@ Comment: shared files between datapacks
 
 # Lantern
 
+# Individual Load files go in individual .license files
 Files: data/load/*
 Copyright: Lantern Contributors
 License: CC0-1.0
@@ -51,23 +40,28 @@ Copyright: 2020 Aeldrion
 License: MIT
 Comment: Doesn't apply if using Lantern; comment out/delete if so.
 
-Files: data/load/tags/functions/load.json data/load/tags/functions/standard.json
-Copyright: Lantern Contributors
-           2020 Aeldrion
-License: MIT
-
 # Minecraft Phi
 
 Files: libs/MinecraftPhi-modules/*
 Copyright: 2018 Phi contributors
 License: MIT
 
-Files: data/phi.*
+Files: data/phi.*/*
 Copyright: 2018 Phi contributors
 License: MIT
 
-# Exceptions
+# Shared files
 
-Files: data/load/tags/functions/post_load.json
-Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+# Add items to `Copyright` depending on your reused code/libs
+Files: data/minecraft/tags/functions/*
+Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
 License: MIT
+Comment: shared files between datapacks
+
+# Individual exceptions
+
+# Sample paragraph, commented out:
+#
+# Files: data/*
+# Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
+# License: MIT
