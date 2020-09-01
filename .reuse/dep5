@@ -65,3 +65,8 @@ Comment: shared files between datapacks
 # Files: data/*
 # Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
 # License: MIT
+
+Files: data/aestd1/tags/functions/*
+Copyright: 2020 Aeldrion
+           2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+License: MIT
