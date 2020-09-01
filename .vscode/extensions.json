@@ -1,0 +1,11 @@
+/*
+ * SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+ *
+ * SPDX-License-Identifier: CC0-1.0
+ */
+
+ {
+    "recommendations": [
+        "spgoding.datapack-language-server"
+    ]
+}
