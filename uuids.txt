@@ -18,7 +18,7 @@ Comment: Center entity
 UUID: [I;-1384509228,2101104451,-2034509177,756202361]
 Selector: @e[tag=mmh.worldborder]
 Comment: Worldborder entity used in
-    function manhunt:mechanics/worldborder/set_from_input
+    function nlib:worldborder/set_from_input
 
 "4065effc-632b-4a1c-9948-78ae5f431003"
 UUID: [I;1080422396,1663781404,-1723303762,1598230531]
