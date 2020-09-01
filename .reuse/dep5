@@ -7,7 +7,7 @@ License: MIT
 # Base datapack files
 # Scroll past the libraries section to apply exceptions to them.
 Files: data/* pack.mcmeta
-Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
+Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
 License: MIT
 
 # Libraries, bundled and unbundled
@@ -54,7 +54,9 @@ License: MIT
 
 # Add items to `Copyright` depending on your reused code/libs
 Files: data/minecraft/tags/functions/*
-Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
+Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+           Lantern Contributors
+           2020 Aeldrion
 License: MIT
 Comment: shared files between datapacks
 
@@ -63,7 +65,7 @@ Comment: shared files between datapacks
 # Sample paragraph, commented out:
 #
 # Files: data/*
-# Copyright: Nathaniel Fitzenrider Nathaniel Fitzenrider <https://github.com/nfitzen>
+# Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
 # License: MIT
 
 Files: data/aestd1/tags/functions/*
