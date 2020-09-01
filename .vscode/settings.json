@@ -1,0 +1,10 @@
+{
+    "psi-header.config": {
+        "copyrightHolder": "Nathaniel Fitzenrider",
+        "license": "MIT"
+    },
+    "psi-header.variables": [
+        ["copyrightYears", "2020"],
+        ["contact","<https://github.com/nfitzen>"]
+    ]
+}

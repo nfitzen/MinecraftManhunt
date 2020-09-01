@@ -1,39 +1,73 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Minecraft Manhunt
-Upstream-Contact: Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+Upstream-Name: Datapack Template
+Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
 Source: https://github.com/nfitzen/MinecraftManhunt
 License: MIT
 
 # Sample paragraph, commented out:
 #
-# Files: src/*
-# Copyright: $YEAR $NAME <$CONTACT>
-# License: ...
+# Files: data/*
+# Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+# License: MIT
 
-Files: *.json
-Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+# Blanket copyright just in case JSON files exist.
+# Scroll past the libraries section to apply exceptions to them.
+Files: data/*
+Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
 License: MIT
 
-Files: data/manhunt/*
-Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+# Add items to `Copyright` depending on your reused code/libs
+Files: data/minecraft/tags/functions/*
+Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+License: MIT
+Comment: shared files between datapacks
+
+# Libraries, bundled and unbundled
+# Add your own copyright if using function tags from any of these.
+# or, if using a different license, put a different paragraph later on down.
+
+# Lantern
+
+Files: data/load/*
+Copyright: Lantern Contributors
+License: CC0-1.0
+
+Files: libs/Lantern/* data/lantern.*/*
+Copyright: 2019 Lantern Contributors
 License: MIT
 
-Files: pack.mcmeta
-Copyright: 2020 Nathaniel Fitzenrider <nathaniel.fitzenrider@gmail.com>
+Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
+Copyright: 2019 Lantern Contributors
 License: MIT
 
-Files: AESTD/*
-Copyright: 2020 Aeldrion
-License: MIT
+# AESTD
 
-Files: data/aestd*
+Files: libs/AESTD/* data/aestd.*/*
 Copyright: 2020 Aeldrion
 License: MIT
 
 Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
 Copyright: 2020 Aeldrion
 License: MIT
+Comment: Doesn't apply if using Lantern; comment out/delete if so.
 
-Files: data/load/*
-Copyright: 2019 LanternMC
-License: CC0-1.0
+Files: data/load/tags/functions/load.json data/load/tags/functions/standard.json
+Copyright: Lantern Contributors
+           2020 Aeldrion
+License: MIT
+
+# Minecraft Phi
+
+Files: libs/MinecraftPhi-modules/*
+Copyright: 2018 Phi contributors
+License: MIT
+
+Files: data/phi.*
+Copyright: 2018 Phi contributors
+License: MIT
+
+# Exceptions
+
+Files: data/load/tags/functions/post_load.json
+Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+License: MIT
