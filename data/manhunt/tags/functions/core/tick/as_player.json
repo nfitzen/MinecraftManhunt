@@ -1,6 +1,6 @@
 {
     "values": [
         "manhunt:mechanics/death/respawn/check",
-        "manhunt:mechanics/tracker/update/main"
+        "manhunt:mechanics/tracker/update/tick_as_player"
     ]
 }

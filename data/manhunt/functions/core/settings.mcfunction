@@ -5,6 +5,8 @@
 # function manhunt:core/settings
 # called by: #manhunt:core/init
 
+#declare storage manhunt:settings
+
 function #manhunt:core/settings/pre
 
 scoreboard objectives add mmh.settings dummy

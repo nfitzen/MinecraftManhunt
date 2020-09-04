@@ -14,9 +14,3 @@ setworldspawn ~ ~ ~
 execute as @a run function manhunt:mechanics/setup/as_player
 
 function manhunt:mechanics/setup/world_setup
-
-execute store result score $worldborder.size mmh.input run data get storage manhunt:settings mmh.mechanics.worldborder.set.setup.size
-data modify storage manhunt:input mmh.mechanics.worldborder.set.center set from entity @s Pos
-execute if data storage manhunt:settings mmh.mechanics.worldborder.set.setup.center run data modify storage manhunt:input mmh.mechanics.worldborder.set.center set from storage manhunt:settings mmh.mechanics.worldborder.set.setup.center
-
-function manhunt:mechanics/worldborder/set_from_input
