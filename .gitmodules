@@ -4,4 +4,4 @@
 
 [submodule "libs\\AESTD"]
 	path = libs\\AESTD
-	url = https://github.com/Aeldrion/AESTD
+	url = https://github.com/Aeldrion/AESTD.git
