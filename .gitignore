@@ -22,9 +22,8 @@ data/minecraft/loot_tables/blocks/yellow_shulker_box.json
 /.build/
 /releases/
 
-
-# Created by https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,macos,linux,python
+# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,visualstudiocode,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,visualstudiocode,python
 
 ### GNU/Linux ###
 *~
@@ -86,8 +85,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-# lib/
-# lib64/
+lib/
+lib64/
 parts/
 sdist/
 var/
@@ -122,6 +121,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+pytestdebug.log
 
 # Translations
 *.mo
@@ -142,6 +142,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+doc/_build/
 
 # PyBuilder
 target/
@@ -203,6 +204,18 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -229,4 +242,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,python
+# End of https://www.toptal.com/developers/gitignore/api/linux,macos,windows,visualstudiocode,python
