@@ -14,4 +14,6 @@ scoreboard players operation $hunted_diff mmh.tmp -= $current_hunted mmh.tmp
 
 execute as @a[sort=random,team=] run function manhunt:mechanics/begin/team_assignment/as_player
 
+execute store result score $hunted_size mmh.int if entity @a[team=mmh.hunted]
+
 function #manhunt:overrides/mechanics/begin/team_assignment/main
