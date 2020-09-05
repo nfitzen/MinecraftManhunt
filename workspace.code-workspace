@@ -10,7 +10,7 @@
 			"path": "."
 		},
 		{
-			"path": "libs\\AESTD"
+			"path": "libs/AESTD"
 		}
 	]
 }
