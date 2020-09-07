@@ -13,12 +13,25 @@ Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Desig
 ## Usage
 1. Run `function #manhunt:setup`.
     - Smack your friends around until everyone joins.
+
 2. Change settings as you see fit with `data modify`.
+
     - Run `data get storage manhunt:settings` to see all settings.
     - Make sure the worldborder size is more than double the `spawnRadius`
-    gamerule!
-3. Make sure everyone is technically alive; some players might not be frozen properly if not.
-4. Run `function #manhunt:begin` to begin.
+        gamerule!
+
+3. Assign teams with `team join mmh.hunters <player>`
+    or `team join mmh.hunted <player>`.
+
+    - The game will randomly assign a hunted player
+        if the number of hunted players is less than the setting
+        `mmh.mechanics.begin.team_assignment.hunted_size`.
+
+4. Make sure everyone is technically alive; some players might not be frozen properly if not.
+
+5. Run `function #manhunt:begin` to begin.
+    - You can randomly assign hunters by changing
+    `mmh.mechanics.begin.team_assignment.hunted_size`.
 
 ### Trackers
 Some features of the trackers are:

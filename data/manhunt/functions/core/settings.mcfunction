@@ -16,6 +16,8 @@ data merge storage manhunt:settings {"mmh":{"core":{},"mechanics":{}}}
 data modify storage manhunt:settings mmh.mechanics.begin set value {"countdown":{"time":10s,"hunted_gamemode":"adventure"},"team_assignment":{"hunted_size":1s}}
 
 # The Y coordinate can be anything but is included because it minimizes calls to NBT.
+# head_start is left blank but follows the same pattern as all the other worldborder settings
+# and modifies the worldborder during countdown.
 data modify storage manhunt:settings mmh.mechanics.worldborder.set set value {"head_start":{},"setup":{"size":40},"game":{"size":60000000,"center":[0d,0d,0d]}}
 
 function #manhunt:core/settings/post
