@@ -66,8 +66,14 @@ This datapack is licensed under the [Expat/MIT License](LICENSE).
 [Lantern Load] is licensed under [CC0 1.0](LICENSES/CC0-1.0.txt).
 
 See the [dep5 file](.reuse/dep5) and/or individual files for more information
-on copyright and licensing.
+on copyright and licensing (and a link to the source code, if using the built
+release).
 (You could also use the [REUSE initiative]'s handy tool.)
+
+## URL to Source
+
+If you're reading this in a pre-bundled ZIP, you can find the URL to the source
+code in the [pack.mcmeta](pack.mcmeta) and [dep5](.reuse/dep5) files.
 
 [REUSE Initiative]: https://reuse.software/
 
