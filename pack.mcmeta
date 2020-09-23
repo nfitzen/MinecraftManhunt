@@ -1,6 +1,6 @@
 {
     "pack": {
         "pack_format": 6,
-        "description": "Minecraft Manhunt 1.2-beta.2 by nfitzen\nhttps://github.com/nfitzen/MinecraftManhunt"
+        "description": "Minecraft Manhunt $version by nfitzen\nhttps://github.com/nfitzen/MinecraftManhunt"
     }
 }
