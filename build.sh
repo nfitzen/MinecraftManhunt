@@ -3,15 +3,17 @@
 #
 # SPDX-License-Identifier: CC0-1.0
 
+# Replace PACK_NAME with the file-safe name of the pack
 PACK_NAME="MinecraftManhunt"
+
+# Optionally replace version, or let Git do it for you.
+version=$(git describe --tags --dirty --always)
 
 if command -v zip; then
     ZIP="zip -r";
 else
     ZIP="7z a";
 fi
-
-version=$(git describe --tags --dirty)
 
 rm -r .build/
 mkdir .build releases .build/files
@@ -21,6 +23,7 @@ cp -r data/ ./pack.mcmeta .build/files/
 cp -r .reuse/ LICENSE LICENSES/ README.md .build/files
 
 # Currently only implemented for AESTD
+# I plan to make this work with any datapack lib in the future and merge JSON
 
 mkdir .build/libs
 cp -r libs/AESTD/ .build/libs/
