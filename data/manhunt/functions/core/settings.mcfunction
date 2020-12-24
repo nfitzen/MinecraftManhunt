@@ -1,5 +1,3 @@
-#> manhunt:core/settings
-# called by: #manhunt:core/init
 # SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
 #
 # SPDX-License-Identifier: MIT
@@ -21,7 +19,7 @@ scoreboard objectives add mmh.settings dummy
 
 data remove storage manhunt:default_settings mmh
 
-data modify storage manhunt:default_settings mmh.mechanics.begin set value {"countdown":{"time":60s,"hunted_gamemode":"survival"},"team_assignment":{"hunted_size":1s}}
+data modify storage manhunt:default_settings mmh.mechanics.begin set value {"countdown":{"time":60s,"hunted_gamemode":"survival","stickytp":true},"team_assignment":{"hunted_size":1s}}
 
 data modify storage manhunt:default_settings mmh.mechanics.setup.NoAI set value false
 
