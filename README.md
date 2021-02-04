@@ -5,7 +5,8 @@
  -->
 
 # Minecraft Manhunt
-Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Designed for 1.16.2+It's certainly poorly designed, and the default settings could use some work..
+Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Designed for 1.16.2+.
+It's certainly poorly designed, and the default settings could use some work..
 
 [Dream]: https://www.youtube.com/c/Dreamm
 [mcmanhunt-yt]: https://www.youtube.com/playlist?list=PLChiKQUYPsJ9_ZXHeT287Ry2tIX1AiSkq
