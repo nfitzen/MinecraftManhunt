@@ -5,10 +5,10 @@
  -->
 
 # Minecraft Manhunt
-Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Designed for 1.16.2.
+Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Designed for 1.16.2+It's certainly poorly designed, and the default settings could use some work..
 
-[Dream]: //www.youtube.com/c/Dreamm
-[mcmanhunt-yt]: //www.youtube.com/playlist?list=PLChiKQUYPsJ9_ZXHeT287Ry2tIX1AiSkq
+[Dream]: https://www.youtube.com/c/Dreamm
+[mcmanhunt-yt]: https://www.youtube.com/playlist?list=PLChiKQUYPsJ9_ZXHeT287Ry2tIX1AiSkq
 
 ## Usage
 1. Run `function #manhunt:setup`.
@@ -39,6 +39,7 @@ Some features of the trackers are:
     - Except if you're in the overworld and the target is in the Nether; then, it updates to the coords the person entered the Nether
 - Updates every tick
 - You won't be able to mine, e.g., dirt, while holding the tracker if the target's in the same dimension as you are.
+    - A planned update will notify the player if no one is in the same dimension.
 - Trackers blindly track the nearest player, without telling you information like their username (might be changed)
 
 ## Building from Source
