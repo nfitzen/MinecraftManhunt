@@ -31,7 +31,7 @@ License: MIT
 
 # AESTD
 
-Files: libs/AESTD/* data/aestd.*/*
+Files: libs/AESTD/* data/aestd*/*
 Copyright: 2020 Aeldrion
 License: MIT
 
