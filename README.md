@@ -1,8 +1,8 @@
 <!--
-  ~ SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+  ~ SPDX-FileCopyrightText: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
   ~
   ~ SPDX-License-Identifier: MIT
- -->
+  -->
 
 # Minecraft Manhunt
 Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Designed for 1.16.2+.
