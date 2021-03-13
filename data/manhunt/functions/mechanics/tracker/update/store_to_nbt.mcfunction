@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+# SPDX-FileCopyrightText: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
 #
 # SPDX-License-Identifier: MIT
 
@@ -10,4 +10,4 @@ execute store success score @s mmh.tmp run data modify storage manhunt:temp Dime
 
 execute if score @s mmh.tmp matches 0 run function manhunt:mechanics/tracker/update/unless_dimdiff
 
-execute if score @s mmh.tmp matches 1 if data storage manhunt:input {"Dimension":"minecraft:overworld"} if data entity @s {"Dimension":"minecraft:the_nether"} run function manhunt:mechanics/tracker/update/if_nether
+execute if score @s mmh.tmp matches 1 if data storage manhunt:input {"Dimension":"minecraft:overworld"} if data entity @s {"Dimension":"minecraft:the_nether"} run function manhunt:mechanics/tracker/update/if_overworld_nether
