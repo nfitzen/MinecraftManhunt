@@ -5,13 +5,26 @@
   -->
 
 # Minecraft Manhunt
-Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt]. Designed for 1.16.2+.
-It's certainly poorly designed, and the default settings could use some work..
+Inspired by [Dream]'s Minecraft Manhunt series [on YouTube][mcmanhunt-yt].
+Designed for Minecraft 1.16.2+. It's certainly poorly designed, but it's gratis
+and [free][fsd], and we all like both don't we.
 
-[Dream]: https://www.youtube.com/c/Dreamm
+[Dream]: https://www.youtube.com/channel/UCTkXRDQl0luXxVQrRQvWS6w
 [mcmanhunt-yt]: https://www.youtube.com/playlist?list=PLChiKQUYPsJ9_ZXHeT287Ry2tIX1AiSkq
+[fsd]: https://www.gnu.org/philosophy/free-sw.html "Free as in freedom, not price."
+
 
 ## Usage
+
+### Quick start
+
+1. Run `function #manhunt:setup`.
+    - This isn't required, but it'll freeze the game (daylight cycle, etc.) until everyone's ready.
+2. Run `function #manhunt:begin` to begin.
+    - It'll randomly assign one person as being hunted and the rest to being hunters.
+
+### More advanced setup
+
 1. Run `function #manhunt:setup`.
     - Smack your friends around until everyone joins.
 
@@ -25,14 +38,11 @@ It's certainly poorly designed, and the default settings could use some work..
     or `team join mmh.hunted <player>`.
 
     - The game will randomly assign a hunted player
-        if the number of hunted players is less than the setting
-        `mmh.mechanics.begin.team_assignment.hunted_size`.
+        if the number of hunted players is less than 1 (or whatever `mmh.mechanics.begin.team_assignment.hunted_size` is) when the game begins.
 
 4. Make sure everyone is technically alive; some players might not be frozen properly if not.
 
 5. Run `function #manhunt:begin` to begin.
-    - You can randomly assign hunters by changing
-    `mmh.mechanics.begin.team_assignment.hunted_size`.
 
 ### Trackers
 Some features of the trackers are:
@@ -42,6 +52,7 @@ Some features of the trackers are:
 - You won't be able to mine, e.g., dirt, while holding the tracker if the target's in the same dimension as you are.
     - A planned update will notify the player if no one is in the same dimension.
 - Trackers blindly track the nearest player, without telling you information like their username (might be changed)
+- You can't move the tracker around in your inventory without the number keys.
 
 ## Building from Source
 
@@ -63,7 +74,7 @@ Also, I sometimes post fixes to things in releases in `master` because I'm bad a
 ## Copyright
 This datapack is licensed under the [Expat/MIT License](LICENSE).
 
-[AESTD] is licensed under the [Expat/MIT License](LICENSES/MIT.txt).
+[AESTD] is licensed under the [0BSD license](LICENSES/0BSD.txt).
 
 [Lantern Load] is licensed under [CC0 1.0](LICENSES/CC0-1.0.txt).
 

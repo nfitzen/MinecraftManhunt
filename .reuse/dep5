@@ -2,12 +2,12 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Minecraft Manhunt
 Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
 Source: https://github.com/nfitzen/MinecraftManhunt
-License: MIT
+License: MIT AND 0BSD
 
 # Base datapack files
 # Scroll past the libraries section to apply exceptions to them.
 Files: data/* pack.mcmeta
-Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+Copyright: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
 License: MIT
 
 # Libraries, bundled and unbundled
@@ -32,12 +32,12 @@ License: MIT
 # AESTD
 
 Files: libs/AESTD/* data/aestd*/*
-Copyright: 2020 Aeldrion
-License: MIT
+Copyright: 2021 Ael
+License: 0BSD
 
 Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
-Copyright: 2020 Aeldrion
-License: MIT
+Copyright: 2021 Ael
+License: 0BSD
 Comment: Doesn't apply if using Lantern; comment out/delete if so.
 
 # Minecraft Phi
@@ -62,8 +62,8 @@ License: MIT
 Files: data/minecraft/tags/functions/*
 Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
            Lantern Contributors
-           2020 Aeldrion
-License: MIT
+           2021 Ael
+License: MIT AND 0BSD
 Comment: shared files between datapacks
 
 # Individual exceptions
@@ -71,10 +71,10 @@ Comment: shared files between datapacks
 # Sample paragraph, commented out:
 #
 # Files: data/*
-# Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
+# Copyright: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
 # License: MIT
 
 Files: data/aestd1/tags/functions/*
-Copyright: 2020 Aeldrion
+Copyright: 2021 Ael
            2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-License: MIT
+License: MIT AND 0BSD
