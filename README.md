@@ -45,14 +45,18 @@ and [free][fsd], and we all like both don't we.
 5. Run `function #manhunt:begin` to begin.
 
 ### Trackers
-Some features of the trackers are:
+Some features of the tracking compasses ("trackers") are:
+
 - Doesn't update when in different dimensions
-    - Except if you're in the overworld and the target is in the Nether; then, it updates to the coords the person entered the Nether
+    - Except if you're in the overworld and the target is in the Nether; then, it updates to the Nether Portal coordinates.
 - Updates every tick
-- You won't be able to mine, e.g., dirt, while holding the tracker if the target's in the same dimension as you are.
-    - A planned update will notify the player if no one is in the same dimension.
-- Trackers blindly track the nearest player, without telling you information like their username (might be changed)
-- You can't move the tracker around in your inventory without the number keys.
+- Hold the compass to update (no right-clicking necessary)
+- Trackers blindly track the nearest hunted player.
+- Dropped trackers get deleted
+    - This is to reduce clutter. Only hunters should have trackers.
+- Hunters get another tracker immediately every time they lose it
+    - This also means that you might have 2 compasses in your inventory if you move it around. This is okay: just drop one of them and it'll be deleted.
+    - The rationale is because people might place a compass in a chest.
 
 ## Building from Source
 

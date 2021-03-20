@@ -4,3 +4,4 @@
 
 execute if score $tracker.status mmh.tmp matches 0 run title @s actionbar {"storage":"manhunt:string","nbt":"mmh.mechanics.tracker.message.0","interpret":true}
 execute if score $tracker.status mmh.tmp matches 1 run title @s actionbar {"storage":"manhunt:string","nbt":"mmh.mechanics.tracker.message.1","interpret":true}
+execute if score $tracker.status mmh.tmp matches 2 run title @s actionbar {"storage":"manhunt:string","nbt":"mmh.mechanics.tracker.message.2","interpret":true}

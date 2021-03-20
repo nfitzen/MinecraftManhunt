@@ -10,4 +10,4 @@ data modify storage aestd:input nbt.LodestonePos.Y set from entity @s enteredNet
 data modify storage aestd:input nbt.LodestonePos.Z set from entity @s enteredNetherPosition.z
 data modify storage aestd:input nbt.LodestoneDimension set value "minecraft:overworld"
 
-scoreboard players set $tracker.status mmh.tmp 0
+scoreboard players set $tracker.status mmh.tmp 2

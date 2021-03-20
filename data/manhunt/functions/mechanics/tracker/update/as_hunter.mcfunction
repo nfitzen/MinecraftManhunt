@@ -4,7 +4,7 @@
 
 # function manhunt:mechanics/tracker/update/main
 
-#> 0 means it's all good; 1 means it couldn't find a player.
+#> 0 means it's all good; 1 means it couldn't find a player. 2 means it was a Nether portal.
 # @internal
 scoreboard players set $tracker.status mmh.tmp 1
 
@@ -20,4 +20,4 @@ execute if score $tracker.status mmh.tmp matches 0 store result score @s aestd.i
 
 execute if score $tracker.status mmh.tmp matches 0 run function aestd1:item/merge_nbt
 
-function #manhunt:mechanics/tracker/update/message
+execute run function #manhunt:mechanics/tracker/update/message

@@ -18,6 +18,7 @@ data modify storage manhunt:string mmh.mechanics.win.hunted.subtitle set value '
 data modify storage manhunt:string mmh.mechanics.tracker.display.Name set value '{"text":"Tracking Compass","color":"gold","italic":false}'
 data modify storage manhunt:string mmh.mechanics.tracker.message.0 set value '[{"text":"Tracking player ","color":"green"},{"selector":"@p[team=mmh.hunted,tag=mmh.alive]","color":"reset"},"."]'
 data modify storage manhunt:string mmh.mechanics.tracker.message.1 set value '{"text":"Could not find player.","color":"red"}'
+data modify storage manhunt:string mmh.mechanics.tracker.message.2 set value '[{"text":"Tracking ","color":"green"},{"selector":"@p[team=mmh.hunted,tag=mmh.alive]","color":"reset"},"\'s Nether Portal."]'
 
 data modify storage manhunt:string mmh.mechanics.win.stats.message set value []
 data modify storage manhunt:string mmh.mechanics.win.stats.message append value '{"text":"--------------------","color":"green"}'
