@@ -78,9 +78,7 @@ Also, I sometimes post fixes to things in releases in `master` because I'm bad a
 ## Copyright
 This datapack is licensed under the [Expat/MIT License](LICENSE).
 
-[AESTD] is licensed under the [0BSD license](LICENSES/0BSD.txt).
-
-[Lantern Load] is licensed under [CC0 1.0](LICENSES/CC0-1.0.txt).
+[AESTD] and [Lantern Load] are licensed under [0BSD](LICENSES/0BSD.txt).
 
 See the [dep5 file](.reuse/dep5) and/or individual files for more information
 on copyright and licensing (and a link to the source code, if using the built

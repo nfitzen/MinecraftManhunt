@@ -2,13 +2,24 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Minecraft Manhunt
 Upstream-Contact: Nathaniel Fitzenrider <https://github.com/nfitzen>
 Source: https://github.com/nfitzen/MinecraftManhunt
-License: MIT AND 0BSD
+License: CC0-1.0 AND MIT AND 0BSD
 
-# Base datapack files
-# Scroll past the libraries section to apply exceptions to them.
-Files: data/* pack.mcmeta
+# Sample paragraph, commented out:
+#
+# Files: data/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: MIT
+
+Files: data/manhunt/tags/* pack.mcmeta
 Copyright: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
 License: MIT
+Comment: each file may have been only changed in 2020, so watch out for that.
+
+# Add items to `Copyright` depending on your reused code/libs
+# Files: data/minecraft/tags/functions/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: MIT
+# Comment: shared files between datapacks
 
 # Libraries, bundled and unbundled
 # Add your own copyright if using function tags from any of these.
@@ -18,8 +29,8 @@ License: MIT
 
 # Individual Load files go in individual .license files
 Files: data/load/*
-Copyright: Lantern Contributors
-License: CC0-1.0
+Copyright: 2019 Lantern Contributors
+License: MIT
 
 Files: libs/Lantern/* data/lantern.*/*
 Copyright: 2019 Lantern Contributors
@@ -28,6 +39,13 @@ License: MIT
 Files: data/minecraft/loot_tables/blocks/yellow_shulker_box.json
 Copyright: 2019 Lantern Contributors
 License: MIT
+
+# Lantern Load
+
+# Comment out if not using Lantern Load directly
+Files: data/load/*
+Copyright: 2020 Lue
+License: 0BSD
 
 # AESTD
 
@@ -49,32 +67,3 @@ License: MIT
 Files: data/phi.*/*
 Copyright: 2018 Phi contributors
 License: MIT
-
-# Other libs
-
-Files: data/nlib/*
-Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-License: MIT
-
-# Shared files
-
-# Add items to `Copyright` depending on your reused code/libs
-Files: data/minecraft/tags/functions/*
-Copyright: 2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-           Lantern Contributors
-           2021 Ael
-License: MIT AND 0BSD
-Comment: shared files between datapacks
-
-# Individual exceptions
-
-# Sample paragraph, commented out:
-#
-# Files: data/*
-# Copyright: 2020-2021 Nathaniel Fitzenrider <https://github.com/nfitzen>
-# License: MIT
-
-Files: data/aestd1/tags/functions/*
-Copyright: 2021 Ael
-           2020 Nathaniel Fitzenrider <https://github.com/nfitzen>
-License: MIT AND 0BSD

@@ -43,4 +43,4 @@ cd files/
 
 rm ../../releases/$PACK_NAME-$version.zip
 
-$ZIP ../../releases/$PACK_NAME-$version.zip **
+$ZIP ../../releases/$PACK_NAME-$version.zip ** .reuse/
