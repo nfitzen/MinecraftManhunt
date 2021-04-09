@@ -3,9 +3,9 @@
 #
 # SPDX-License-Identifier: MIT
 
-from datetime import datetime
+from datetime import date
 
-year = datetime.date().today().year
+year = date.today().year
 
 # 60,000,000 == 0b00000011100100111000011100000000
 # 26 bits
@@ -14,7 +14,7 @@ bits = range(25,-1,-1)
 
 tests = (2**x for x in bits)
 
-year = "2020-" + year
+year = "2020-" + str(year)
 copyrightHolder = "Nathaniel Fitzenrider"
 contact = "<https://github.com/nfitzen>"
 l = "MIT"
